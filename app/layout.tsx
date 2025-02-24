@@ -19,11 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} antialiased`}>
-        NAV HERE
-        {children}
-        FOOTER HERE
-      </body>
+      <body className={`${font.className} antialiased`}>{children}</body>
     </html>
   );
 }
