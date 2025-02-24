@@ -11,6 +11,9 @@ const Nav = () => {
             </div>
             <h1 className='text-white text-xl md:text-2xl uppercase font-bold'>Travista</h1>
         </div>
+        <div>
+            
+        </div>
       </div>
     </div>
   );
