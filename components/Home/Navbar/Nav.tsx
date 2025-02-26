@@ -1,6 +1,7 @@
+'use client';
 import { navLinks } from '@/constant/constant';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import { TbAirBalloon } from 'react-icons/tb';
 
@@ -9,8 +10,17 @@ type Props = {
 };
 
 const Nav = ({ openNav }: Props) => {
+  const [navBg, setNavBg] = useState(false);
+  useEffect(() => {
+    const handler = () => {
+      if (window.scrollY >= 90) setNavBg(true);
+      if (window.scrollY < 90) setNavBg(false);
+    };
+    window.addEventListener('scroll', handler);
+    return ()=> window.removeEventListener('scroll', handler);
+  }, []);
   return (
-    <div className="bg-blue-950 h-[12vh] z-[1000] transition-all duration-200 fixed w-full">
+    <div className={`${navBg?'bg-blue-950 shadow-md':'fixed'} h-[12vh] z-[1000] transition-all duration-200 fixed w-full`}>
       <div className="flex items-center justify-between mx-auto h-full w-[90%] xl:w-[80%]">
         <div className="flex items-center space-x-2">
           <div className="flex flex-col items-center justify-center bg-rose-500 w-10 h-10 rounded-full">
