@@ -9,12 +9,13 @@ type Props = {
 };
 
 const MobileNav = ({ showNav, closeNav }: Props) => {
+  const navOpen = showNav ? 'translate-x-0' : 'translate-x-[-100%]';
   return (
     <div>
-      <div className="bg-black fixed inset-0 z-[1002] transform transition-all duration-500 opacity-70 w-full h-screen"></div>
+      <div className={`bg-black ${navOpen} fixed inset-0 z-[1002] transform transition-all duration-500 opacity-70 w-full h-screen`}></div>
       <div
-        className="bg-rose-900 text-white flex flex-col fixed justify-center w-[80%] sm:w-[60%] h-full transform transition-all
-       duration-500 delay-300 space-y-6 z-[1050]"
+        className={`bg-rose-900 ${navOpen} text-white flex flex-col fixed justify-center w-[80%] sm:w-[60%] h-full transform transition-all
+       duration-500 delay-300 space-y-6 z-[1050]`}
       >
         {navLinks.map((link) => {
           return (
