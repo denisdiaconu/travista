@@ -1,3 +1,4 @@
+import SearchBox from '@/components/Helper/SearchBox';
 import React from 'react';
 
 const Hero = () => {
@@ -20,6 +21,7 @@ const Hero = () => {
             </h1>
             <p className='text-white md:text-base text-center text-lg font-normal [word-spacing:3px]'>Get the best prices on 2,000,000+ properties, worldwide</p>
           </div>
+          <SearchBox />
         </div>
       </div>
     </div>
