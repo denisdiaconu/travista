@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaCalendarWeek, FaMap } from 'react-icons/fa';
+import { FaUserGroup } from 'react-icons/fa6';
 
 const SearchBox = () => {
   return (
@@ -18,18 +19,25 @@ const SearchBox = () => {
           />
         </div>
       </div>
-      <div className='flex items-center space-x-6'>
-        <FaCalendarWeek className='w-6 h-6 text-blue-600'/>
+      <div className="flex items-center space-x-6">
+        <FaCalendarWeek className="w-6 h-6 text-blue-600" />
         <div>
           <p className="text-lg font-medium mb-[0.2rem]">Start Date</p>
-          <input type="date" className='outline-none border-none'/>
+          <input type="date" className="outline-none border-none" />
         </div>
       </div>
-      <div className='flex items-center space-x-6'>
-        <FaCalendarWeek className='w-6 h-6 text-blue-600'/>
+      <div className="flex items-center space-x-6">
+        <FaCalendarWeek className="w-6 h-6 text-blue-600" />
         <div>
           <p className="text-lg font-medium mb-[0.2rem]">End Date</p>
-          <input type="date" className='outline-none border-none'/>
+          <input type="date" className="outline-none border-none" />
+        </div>
+      </div>
+      <div className="flex items-center space-x-6">
+        <FaUserGroup className="w-6 h-6 text-blue-600" />
+        <div>
+          <p className="text-lg font-medium mb-[0.2rem]">Guest</p>
+          <p className='text-base font-normal'>1 Guest 1 Room</p>
         </div>
       </div>
     </div>
