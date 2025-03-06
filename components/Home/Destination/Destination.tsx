@@ -2,7 +2,9 @@ import React from 'react'
 
 const Destination = () => {
   return (
-    <div>Destination</div>
+    <div className='pt-20 pb-20'>
+      
+    </div>
   )
 }
 
