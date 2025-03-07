@@ -45,6 +45,8 @@ const DestinationSlider = () => {
                 className="h-full w-full object-cover rounded-lg"
               />
             </div>
+            <h1 className="text-lg mt-4 font-semibold">{data.country}</h1>
+            <p className="text-gray-600 text-sm">{data.travelers} Travelers</p>
           </div>
         );
       })}
