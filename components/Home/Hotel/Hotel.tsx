@@ -1,8 +1,11 @@
+import SectionHeading from '@/components/Helper/SectionHeading'
 import React from 'react'
 
 const Hotel = () => {
   return (
-    <div>Hotel</div>
+    <div className='pt-20 pb-20'>
+        <SectionHeading heading='Recommended Hotels'/>
+    </div>
   )
 }
 
