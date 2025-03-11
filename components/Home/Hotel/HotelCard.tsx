@@ -34,7 +34,22 @@ const HotelCard = ({ hotel }: Props) => {
         <h1 className="text-blue-950 mt-4 text-lg font-semibold hover:text-black cursor-pointer transition-all duration-200">
           {hotel.name}
         </h1>
-        <p className='text-gray-600 text-sm mt-3 mb-6 font-medium'>{hotel.location}</p>
+        <p className="text-gray-600 text-sm mt-3 mb-6 font-medium">
+          {hotel.location}
+        </p>
+        <div className="flex items-center space-x-2">
+          <div className="bg-blue-800 text-white text-xs px-2 py-2 rounded-md font-bold">
+            {hotel.rating}
+          </div>
+          <p className="text-gray-800 text-sm">Exceptional</p>
+          <p className="text-gray-800 text-sm font-bold">
+            {hotel.reviews} Reviews
+          </p>
+        </div>
+        <p className="text-gray-700 mt-3 font-medium">
+          Starting from{' '}
+          <span className="text-blue-600 font-bold">{hotel.price} €</span>
+        </p>
       </div>
     </div>
   );
