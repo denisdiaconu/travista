@@ -30,6 +30,12 @@ const HotelCard = ({ hotel }: Props) => {
           className="overflow-hidden h-full w-full transition-all duration-300 object-cover group-hover:scale-110"
         />
       </div>
+      <div>
+        <h1 className="text-blue-950 mt-4 text-lg font-semibold hover:text-black cursor-pointer transition-all duration-200">
+          {hotel.name}
+        </h1>
+        <p className='text-gray-600 text-sm mt-3 mb-6 font-medium'>{hotel.location}</p>
+      </div>
     </div>
   );
 };
