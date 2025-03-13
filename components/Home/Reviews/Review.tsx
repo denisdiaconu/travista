@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
+import ReviewSlider from './ReviewSlider';
 
 const Review = () => {
   return (
@@ -7,7 +8,7 @@ const Review = () => {
       <div className="w-[80%] mx-auto grid items-center gap-10 grid-cols-1 lg:grid-cols-2">
         <div>
           <h1 className="text-white text-2xl font-semibold">
-            what our customers are saying us?
+            What our customers are saying about us.
           </h1>
           <p className="text-gray-200 mt-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
@@ -26,6 +27,9 @@ const Review = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="overflow-hidden">
+          <ReviewSlider />
         </div>
       </div>
     </div>
