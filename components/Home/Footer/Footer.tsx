@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
+import { FaDribbble, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -75,7 +77,21 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-gray-600 text-sm flex flex-col md:flex-row justify-between items-center mt-8 pt-8 w-[80%] mx-auto border-t">
-        <p className='text-center md:text-left'>© [2025] [Travista]. All rights reserved.</p>
+        <p className="text-center md:text-left">
+          © [2025] [Travista]. All rights reserved.
+        </p>
+        <div className="flex items-center space-x-4 mt-4 md:mt-0">
+          <span>Social : </span>
+          <Link href="#" className="text-gray-500 hover:text-gray-800">
+            <FaFacebook />
+          </Link>
+          <Link href="#" className="text-gray-500 hover:text-gray-800">
+            <FaDribbble />
+          </Link>
+          <Link href="#" className="text-gray-500 hover:text-gray-800">
+            <FaTwitter />
+          </Link>
+        </div>
       </div>
     </div>
   );
