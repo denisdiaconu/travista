@@ -74,6 +74,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="text-gray-600 text-sm flex flex-col md:flex-row justify-between items-center mt-8 pt-8 w-[80%] mx-auto border-t">
+        <p className='text-center md:text-left'>© [2025] [Travista]. All rights reserved.</p>
+      </div>
     </div>
   );
 };
