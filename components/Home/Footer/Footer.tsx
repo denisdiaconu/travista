@@ -58,6 +58,21 @@ const Footer = () => {
             Travel Agents
           </p>
         </div>
+        <div>
+          <h1 className="text-lg font-bold">Contact Us</h1>
+          <div className="mt-6">
+            <h1 className="text-gray-600 text-sm">Our Mobile Number</h1>
+            <h1 className="text-blue-950 text-base font-bold mt-1">
+              +012 765 8273
+            </h1>
+          </div>
+          <div className="mt-6">
+            <h1 className="text-gray-600 text-sm">Our Email</h1>
+            <h1 className="text-blue-950 text-base font-bold mt-1">
+              example@gmail.com
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   );
