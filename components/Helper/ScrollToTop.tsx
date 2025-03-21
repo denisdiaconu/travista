@@ -12,9 +12,17 @@ const ScrollToTop = () => {
       }
     };
     window.addEventListener('scroll', toggleVisibility);
-    return window.removeEventListener('scroll', toggleVisibility);
+    return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
-  return <div>ScrollToTop</div>;
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  return <div className='fixed'>ScrollToTop</div>;
 };
 
 export default ScrollToTop;
