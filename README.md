@@ -1,15 +1,12 @@
 # Travista
 
-A Fitness page built with React and TypeScript, providing a modern and responsive platform for an engaging user experience across devices.
+A Travel page built with Next.js and TypeScript, providing a modern and responsive platform for an engaging user experience across devices.
 
 ## Built With
 
-- JavaScript
-- React
+- Next.js
 - Typescript
-- Vite
-- Hero Icons
-- React Anchor Link Smooth Scroll
+- Tailwind CSS
 
 
 ## 🔴 Live <a name = "here"></a>
@@ -26,14 +23,14 @@ To get a local copy up and running follow these simple example steps on the comm
 > Clone the project from it's github repo.
 ```bash
 
-  $ git clone https://github.com/denisdiaconu/fit-wave.git
+  $ git clone https://github.com/denisdiaconu/travista.git
   
 ```
 
 > Change directory to the root of project
 ```bash
 
-  $ cd fit-wave
+  $ cd travista
   
 ```
   
@@ -56,7 +53,7 @@ To get a local copy up and running follow these simple example steps on the comm
 👤 **Denis Andrei Diaconu**
 
 - GitHub: [@DenisDiaconu](https://github.com/denisdiaconu)
-- Twitter: [@DenisAndreiDia1](https://twitter.com/DenisAndreiDia1)
+- Twitter: [@DenisAndreiDia1](https://x.com/Denis__Diaconu)
 - LinkedIn: [Denis Diaconu](https://www.linkedin.com/in/denis-diaconu-1394091b7/)
 
 ## 🤝 Contributing
