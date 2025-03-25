@@ -7,12 +7,12 @@ const ChooseUs = () => {
     <div className="pt-16 pb-16">
       <SectionHeading heading="Why Choose Us" />
       <div className="grid w-[80%] mx-auto mt-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center">
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
           <ChooseUsCard image="/images/c1.svg" title="Best Price Guarantee" />
         </div>
         <div
           data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="top-bottom"
           data-aos-delay="150"
         >
           <ChooseUsCard image="/images/c2.svg" title="Easy & Quick Booking" />
