@@ -10,7 +10,7 @@ A Travel page built with Next.js and TypeScript, providing a modern and responsi
 
 
 ## 🔴 Live <a name = "here"></a>
-**Click [here](https://fit-wave.pages.dev/) in order to see the page of this project.**
+**Click [here](https://travista-xi.vercel.app/) in order to see the page of this project.**
 
 
 ![Page](https://github.com/denisdiaconu/fit-wave/blob/master/src/assets/fit-wave.png)
