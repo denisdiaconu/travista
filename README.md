@@ -13,7 +13,7 @@ A Travel page built with Next.js and TypeScript, providing a modern and responsi
 **Click [here](https://travista-xi.vercel.app/) in order to see the page of this project.**
 
 
-![Page](https://github.com/denisdiaconu/travista/tree/master/public/images/travista_home.png)
+![Page](https://github.com/denisdiaconu/travista/blob/master/public/images/travista_home.png)
 
 
 ## Getting Started
