@@ -19,7 +19,7 @@ const ChooseUs = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="top-bottom"
           data-aos-delay="300"
         >
           <ChooseUsCard image="/images/c3.svg" title="Customer Care 24/7" />

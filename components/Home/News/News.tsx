@@ -7,7 +7,7 @@ const News = () => {
     <div className="pt-16 pb-16">
       <SectionHeading heading="Exciting Travel News for You" />
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 items-center mt-20">
-        <div data-aos="fade-left" data-aos-anchor-placement="top-center">
+        <div data-aos="fade-left" data-aos-anchor-placement="top-bottom">
           <NewsCard
             image="/images/n1.jpg"
             title="Top 10 Places to Visit in Australia"
@@ -16,7 +16,7 @@ const News = () => {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="top-bottom"
           data-aos-delay="100"
         >
           <NewsCard
@@ -27,7 +27,7 @@ const News = () => {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="top-bottom"
           data-aos-delay="200"
         >
           <NewsCard
@@ -38,7 +38,7 @@ const News = () => {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="top-bottom"
           data-aos-delay="300"
         >
           <NewsCard

@@ -16,7 +16,7 @@ const Hotel = () => {
             <div
               key={data.id}
               data-aos="fade-right"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top-bottom"
               data-aos-delay={`${i * 100}`}
             >
               <HotelCard hotel={data} />
